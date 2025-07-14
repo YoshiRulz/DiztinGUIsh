@@ -15,9 +15,11 @@
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
     
     <!-- for self-contained publishing -->
+    <_SuppressWinFormsTrimError>true</_SuppressWinFormsTrimError>
     <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
     <PublishProfile>FolderProfile</PublishProfile>
     <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>true</PublishTrimmed>
     <RuntimeIdentifiers>win-x64;win-x86</RuntimeIdentifiers>
   </PropertyGroup>
   
