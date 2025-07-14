@@ -15,6 +15,9 @@
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
     
     <!-- for self-contained publishing -->
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <PublishProfile>FolderProfile</PublishProfile>
+    <PublishSingleFile>true</PublishSingleFile>
     <RuntimeIdentifiers>win-x64;win-x86</RuntimeIdentifiers>
   </PropertyGroup>
   

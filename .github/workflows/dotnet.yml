@@ -56,7 +56,7 @@ jobs:
 
       # removed --no-restore on this for simplicity. it's a little more wasteful potentially though
       - name: Publish
-        run: dotnet publish -c Release -r win-x64  --self-contained true /p:PublishProfile=FolderProfile /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true .\Diz.App.Winforms
+        run: dotnet publish -c Release -r win-x64  --self-contained true .\Diz.App.Winforms
 
       - uses: vimtor/action-zip@v1.2
         with:

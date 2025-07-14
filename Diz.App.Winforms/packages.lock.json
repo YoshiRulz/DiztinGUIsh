@@ -23,6 +23,12 @@
         "resolved": "6.6.4",
         "contentHash": "xId1F9OpzVvyNu3wcdPR4EcNUihcT5U9wiUJOi0tetuDOia1uAiFJzqmYGdRPsqAsgDb6o8sfoQCx5yMFFDsVw=="
       },
+      "Microsoft.NET.ILLink.Tasks": {
+        "type": "Direct",
+        "requested": "[9.0.6, )",
+        "resolved": "9.0.6",
+        "contentHash": "44QvSxbEDEFrI/Dcr/dNj0GkJ8AeQiqf6GO+UYlriaZr+sz8DlySnE6R/nUx8dbElH2wuI/BmDjFlkmKH+N6zg=="
+      },
       "System.Resources.Extensions": {
         "type": "Direct",
         "requested": "[8.0.0, )",
