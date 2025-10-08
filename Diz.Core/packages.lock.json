@@ -1,7 +1,7 @@
 {
   "version": 1,
   "dependencies": {
-    ".NETCoreApp,Version=v5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "ExtendedXmlSerializer": {
         "type": "Direct",
         "requested": "[3.9.6, )",

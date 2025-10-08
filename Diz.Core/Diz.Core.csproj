@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>false</UseWindowsForms>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <RootNamespace>Diz.Core</RootNamespace>

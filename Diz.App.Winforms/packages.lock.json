@@ -1,7 +1,7 @@
 {
   "version": 1,
   "dependencies": {
-    "net5.0-windows7.0": {
+    ".NETCoreApp,Version=v3.1": {
       "GitInfo": {
         "type": "Direct",
         "requested": "[3.3.3, )",
@@ -1162,7 +1162,7 @@
         }
       }
     },
-    "net5.0-windows7.0/win-x64": {
+    ".NETCoreApp,Version=v3.1/win-x64": {
       "Microsoft.Win32.Primitives": {
         "type": "Transitive",
         "resolved": "4.3.0",
@@ -2014,7 +2014,7 @@
         }
       }
     },
-    "net5.0-windows7.0/win-x86": {
+    ".NETCoreApp,Version=v3.1/win-x86": {
       "Microsoft.Win32.Primitives": {
         "type": "Transitive",
         "resolved": "4.3.0",
