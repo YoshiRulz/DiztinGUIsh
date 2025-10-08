@@ -6,7 +6,7 @@ using Diz.Core.model;
 using Diz.Core.model.snes;
 using Diz.Cpu._65816;
 using Diz.Test.Utils;
-using IX.Library.Collections;
+
 using Xunit;
 
 namespace Diz.Test.Tests.RomInterfaceTests

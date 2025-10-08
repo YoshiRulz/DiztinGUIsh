@@ -2,64 +2,11 @@
   "version": 1,
   "dependencies": {
     "net6.0": {
-      "IX.Observable": {
-        "type": "Direct",
-        "requested": "[1.0.1, )",
-        "resolved": "1.0.1",
-        "contentHash": "q+ESigIYNGVq9QRfJpTuSUzHTXY7dpEarVHY5YVomn4fQsCLOE5XKH4JMjZv3p0gvcwXG1m4F0vwGeAcH4kN3g==",
-        "dependencies": {
-          "IX.Library": "1.0.1",
-          "IX.Undoable": "1.0.1",
-          "JetBrains.Annotations": "2023.3.0"
-        }
-      },
       "Meziantou.Polyfill": {
         "type": "Direct",
         "requested": "[1.0.52, )",
         "resolved": "1.0.52",
         "contentHash": "5ONR3Q+n8EzDEsKB4GKTwP6NzFvlOZdGu3XZwdHYdMSt58fWcQ21COCviqeTvoBfsC8pf72+NBLojZsXCsqi/g=="
-      },
-      "IX.Library": {
-        "type": "Transitive",
-        "resolved": "1.0.1",
-        "contentHash": "CdcWZ8ymoauzNEcq7+Mq5tZl8wVuFAnqqQQ0JuxRn7ThV/GCgscQy4az0PCX4bboK4ZYTSD+yVdD/+lCmSli0Q==",
-        "dependencies": {
-          "JetBrains.Annotations": "2023.3.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0"
-        }
-      },
-      "IX.Undoable": {
-        "type": "Transitive",
-        "resolved": "1.0.1",
-        "contentHash": "F9AG4JeBb9uBfi/woq1JUIgsiM3FcBhzSUNC4cf7J61ZeWp3ibY0wQUme15raOT+m8QPjozGCRpc0zDcfjXjCA==",
-        "dependencies": {
-          "IX.Library": "1.0.1",
-          "JetBrains.Annotations": "2023.3.0"
-        }
-      },
-      "JetBrains.Annotations": {
-        "type": "Transitive",
-        "resolved": "2023.3.0",
-        "contentHash": "PHfnvdBUdGaTVG9bR/GEfxgTwWM0Z97Y6X3710wiljELBISipSfF5okn/vz+C2gfO+ihoEyVPjaJwn8ZalVukA=="
-      },
-      "Microsoft.Extensions.Logging.Abstractions": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA=="
-      },
-      "System.Runtime.CompilerServices.Unsafe": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg=="
-      },
-      "System.Text.Encoding.CodePages": {
-        "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        }
       }
     }
   }
