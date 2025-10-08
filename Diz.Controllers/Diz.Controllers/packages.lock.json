@@ -1,7 +1,7 @@
 {
   "version": 1,
   "dependencies": {
-    ".NETCoreApp,Version=v3.1": {
+    ".NETCoreApp,Version=v3.0": {
       "LightInject": {
         "type": "Direct",
         "requested": "[6.6.4, )",
@@ -762,8 +762,8 @@
       },
       "System.Runtime.CompilerServices.Unsafe": {
         "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg=="
+        "resolved": "6.1.2",
+        "contentHash": "2hBr6zdbIBTDE3EhK7NSVNdX58uTK6iHW/P/Axmm9sl1xoGSLqDvMtpecn226TNwHByFokYwJmt/aQQNlO5CRw=="
       },
       "System.Runtime.Extensions": {
         "type": "Transitive",
@@ -1097,6 +1097,7 @@
           "SharpZipLib": "[1.4.2, )",
           "System.Diagnostics.Tracing": "[4.3.0, )",
           "System.Resources.Extensions": "[8.0.0, )",
+          "System.Runtime.CompilerServices.Unsafe": "[6.1.2, )",
           "System.Text.Encoding.CodePages": "[8.0.0, )"
         }
       },
