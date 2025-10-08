@@ -3,11 +3,15 @@
         <DefineConstants>$(DefineConstants)</DefineConstants>
         <EnableWindowsTargeting>true</EnableWindowsTargeting>
         <LangVersion>13.0</LangVersion>
+        <MeziantouPolyfill_ExcludedPolyfills>@(MeziantouPolyfill_DeferToPolySharp, '|')</MeziantouPolyfill_ExcludedPolyfills>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
         <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Meziantou.Polyfill" Version="1.0.52" PrivateAssets="all" />
+        <MeziantouPolyfill_DeferToPolySharp Include="M:System.Linq.Enumerable.AggregateBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``0,``2},System.Collections.Generic.IEqualityComparer{``1})" />
+        <MeziantouPolyfill_DeferToPolySharp Include="M:System.Linq.Enumerable.AggregateBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``2,System.Func{``2,``0,``2},System.Collections.Generic.IEqualityComparer{``1})" />
+        <MeziantouPolyfill_DeferToPolySharp Include="M:System.Linq.Enumerable.CountBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})" />
     </ItemGroup>
 </Project>

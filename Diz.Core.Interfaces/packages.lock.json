@@ -1,7 +1,7 @@
 {
   "version": 1,
   "dependencies": {
-    "net6.0": {
+    ".NETCoreApp,Version=v5.0": {
       "Meziantou.Polyfill": {
         "type": "Direct",
         "requested": "[1.0.52, )",
