@@ -1,12 +1,18 @@
 {
   "version": 1,
   "dependencies": {
-    "net8.0": {
+    "net7.0": {
       "LightInject": {
         "type": "Direct",
         "requested": "[6.6.4, )",
         "resolved": "6.6.4",
         "contentHash": "xId1F9OpzVvyNu3wcdPR4EcNUihcT5U9wiUJOi0tetuDOia1uAiFJzqmYGdRPsqAsgDb6o8sfoQCx5yMFFDsVw=="
+      },
+      "Meziantou.Polyfill": {
+        "type": "Direct",
+        "requested": "[1.0.52, )",
+        "resolved": "1.0.52",
+        "contentHash": "5ONR3Q+n8EzDEsKB4GKTwP6NzFvlOZdGu3XZwdHYdMSt58fWcQ21COCviqeTvoBfsC8pf72+NBLojZsXCsqi/g=="
       },
       "CsvHelper": {
         "type": "Transitive",
@@ -35,7 +41,7 @@
         "contentHash": "CdcWZ8ymoauzNEcq7+Mq5tZl8wVuFAnqqQQ0JuxRn7ThV/GCgscQy4az0PCX4bboK4ZYTSD+yVdD/+lCmSli0Q==",
         "dependencies": {
           "JetBrains.Annotations": "2023.3.0",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
         }
       },
       "IX.Observable": {
@@ -95,18 +101,10 @@
           "JetBrains.Profiler.Api": "1.4.0"
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions": {
-        "type": "Transitive",
-        "resolved": "8.0.0",
-        "contentHash": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg=="
-      },
       "Microsoft.Extensions.Logging.Abstractions": {
         "type": "Transitive",
-        "resolved": "8.0.0",
-        "contentHash": "arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        }
+        "resolved": "7.0.0",
+        "contentHash": "kmn78+LPVMOWeITUjIlfxUPDsI0R6G0RkeAMBmQxAJ7vBJn4q2dTva7pWi65ceN5vPGjJ9q/Uae2WKgvfktJAw=="
       },
       "Microsoft.NETCore.Platforms": {
         "type": "Transitive",
